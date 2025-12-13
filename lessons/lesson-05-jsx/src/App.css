@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  padding: 8px 12px;
+  background-color: #333;
+  color: aliceblue;
+  border-radius: 20px;
+  border: 1px solid aliceblue;
+  transition-duration: 0.2s;
+
+  &:focus {
+    outline: 1px solid aliceblue;
+  }
+}
